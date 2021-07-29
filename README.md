@@ -4,7 +4,7 @@
 
 The data set includes data for **200 machines** from 0 to 199, in which each machine has a total of **18 KPIs** from 0 to 17. Each KPI curve shows the situation of the corresponding machine in **45 days**.  
 
-The labeling is for the data of these 200 machines on the **35th day**.
+The labeling is for the data of these 200 machines on the **35th day**. (Day35_0-199.csv)
 
 ## data
 
@@ -26,9 +26,7 @@ take part of 0.txt (machine 0) for example:
 | 0       | 0      | 1     |
 | 5       | 5      | 0     |
 | 7       | 6      | 2     |
-| 0       | 17     | 3     |
 
 * 1：normal
 * 0：Subsequence outlier
-* 2：Aperiodic outlier time series
-* 3：periodic outlier time series
+* 2：Outlier time series
